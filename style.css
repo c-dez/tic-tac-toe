@@ -5,9 +5,10 @@ body{
     height: 100%;
 }
 section{
-    margin: 0 auto;
+    /* margin: 0 ; */
     max-width: 400px;
     min-width: 200px;
+    width: 50%;
     height: 600px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -20,4 +21,12 @@ section>div{
 }
 section>div:hover{
     background-color: gray;
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+#container>div{
+    width: 300px;
+    background-color: #A78295;
 }
