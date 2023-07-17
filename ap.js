@@ -92,7 +92,7 @@ const player1Wins = ()=>{
     }else if (arrayGrid[6] == 'O'&& arrayGrid[4] == 'O' && arrayGrid[2] == 'O'){
         console.log('player 1 wins')
 
-    }
+    }//falta 0 4 8
 }
 
 const player2Wins = ()=>{
@@ -116,6 +116,6 @@ const player2Wins = ()=>{
     }else if (arrayGrid[6] == 'X'&& arrayGrid[4] == 'X' && arrayGrid[2] == 'X'){
         console.log('player 2 wins')
 
-    }
+    }//falta 0 4 8
 }
 
